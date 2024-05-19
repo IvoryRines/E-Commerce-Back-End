@@ -6,7 +6,7 @@ class Tag extends Model {}
 
 Tag.init(
   {
-    category_name: {
+    tag_name: {
       type: DataTypes.STRING,
     },
   },
